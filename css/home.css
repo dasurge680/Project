@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: limegreen;
+    height: 86px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 86px;
+}
+
+.nav-list{
+    float: right;
+    padding-top: 10px;
+}
+
+.list-item {
+
+    color: black;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding:  15px;
+}
+
+li:hover {
+    background-color: darkgray;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+    background-image: url('.../img/skoda.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: darkgray; */
+}
+
+.skoda {
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no repeat;
+}
+
+/* main section */
+.main-text {
+    font-family: sans-serif;
+    height: 100px;
+    width: 200px;
+    background-color: darkgray;
+    border: blue 3px solid;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    margin-top: 17px;
+    text-align: center;
+}
+/* footer section */
+
+.home-section {
+    height: 500px;
+    width: 100%;
+}
+
+.col {
+    height: 450px;
+    width: 40%;
+    border: darkgray 25px solid;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.puppies {
+    width: 25%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.sec-text p{
+    text-align: center;
+    margin: 50px 20px 0px 20px;
+    margin-top: 12px;
+}
+/********Footer Styles******/
+.footer div {
+    height: 80px;
+    width: 100%;
+    background-color: limegreen;
+}
+
+.button-input, .social .copy {
+    width: 33.3%;
+    float: left;
+    margin: auto;
+    /*display: inline-block;*/
+}
+
+.button-input, .social {
+    margin-top: 42px;
+}
+
+button {
+    padding: 7px;
+    border-radius: 4px;
+}
+
+input {
+    height: 22px;
+    width: 40px;
+}
+
+.fab {
+    font-size: 2em;
+    color: black;
+}
+
+.copy {
+    display: inline;
+    color: purple
+}
+
+/****Contact*****/

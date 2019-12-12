@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|PT+Serif&display=swap');
+
+.about-main {
+    height: 711px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.about-section {
+    width: 30%;
+    height: 700px;
+    float: left;
+    border: 21px solid black;
+    /****margin-left: 2%;******/
+}
+
+.about-img {
+    display: block;
+}
+
+.about-section p {
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/**.about-section p2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    padding: 10px;
+}**/
+
+.about-audio {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
