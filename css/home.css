@@ -4,7 +4,7 @@ body {
 }
 
 .nav-bar {
-    background-color: limegreen;
+    background-color: #0076ff;
     height: 86px;
     width: 100%;
     position: fixed;
@@ -14,6 +14,19 @@ body {
 
 .logo {
     height: 86px;
+}
+
+.main-text {
+    font-family: sans-serif;
+    height: 86px;
+    width: 200px;
+    background-color: darkgray;
+    /*border: blue 3px solid;*/
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    /*margin-top: 17px;*/
+    text-align: center;
 }
 
 .nav-list{
@@ -34,6 +47,8 @@ body {
 li:hover {
     background-color: darkgray;
 }
+/****End of Nav*****/
+
 
 .main {
     width: 100%;
@@ -52,18 +67,7 @@ li:hover {
 }
 
 /* main section */
-.main-text {
-    font-family: sans-serif;
-    height: 100px;
-    width: 200px;
-    background-color: darkgray;
-    border: blue 3px solid;
-    position: absolute;
-    top: 250px;
-    left: 500px;
-    margin-top: 17px;
-    text-align: center;
-}
+
 /* footer section */
 
 .home-section {
